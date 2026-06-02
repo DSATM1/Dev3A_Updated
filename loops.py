@@ -1,4 +1,4 @@
-n = int(input("Enter n:").strip())
+"""n = int(input("Enter n:").strip())
 is_prime = True #we assuming 
 if n<=1: #if any user enter 0 or 1 
     is_prime = False # then it's not a prime
@@ -10,5 +10,5 @@ else:
 if is_prime: # proving 
     print(f"{n} is a Prime number ✅")
 else:
-    print(f"{n} is NOT a Prime number ❌")
+    print(f"{n} is NOT a Prime number ❌")"""
 
