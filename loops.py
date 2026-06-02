@@ -11,3 +11,4 @@ if is_prime: # proving
     print(f"{n} is a Prime number ✅")
 else:
     print(f"{n} is NOT a Prime number ❌")
+
