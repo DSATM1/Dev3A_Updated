@@ -12,3 +12,14 @@ if is_prime: # proving
 else:
     print(f"{n} is NOT a Prime number ❌")"""
 
+"""class Solution:
+    def rev(self,x):
+        # i = 0
+        # while x = i*x:
+        #     print("NA")
+        # if 
+        for i in range(1,11,-1):
+            print(f"{x} = {i} x {i*x} ")
+if __name__ == "__main__":
+    if rev(x):"""
+#if x = 3 then ans = 3 2 1 0;
