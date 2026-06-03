@@ -36,3 +36,11 @@ my_func()
 print(f"outside : {x}")"""
 
  
+"""a = 100
+
+def in_side():
+    a = 50
+    print("inside",a)
+
+in_side()
+print("outside",a)"""
