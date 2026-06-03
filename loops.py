@@ -29,7 +29,7 @@ Divisible by 3 only        →  print "Fizz"
 Divisible by 5 only        →  print "Buzz"
 Otherwise                  →  print the number"""
 
-n = int(input("Enter the number:").strip())
+"""n = int(input("Enter the number:").strip())
 for i in range(1,n+1):
     if i % 3 == 0 and i % 5 == 0 :
         print("FizzBuzz",end = " ")
@@ -38,4 +38,40 @@ for i in range(1,n+1):
     elif i % 5 == 0:
         print("Buzz", end = " ")
     else:
-        print(i,end= " ")  
+        print(i,end= " ")  """
+
+
+"""Enter number : 12345
+Sum of digits : 15
+
+Enter number : 9999
+Sum of digits : 36
+
+
+
+n = int(input("Enter the number:").strip())
+new_rev = 0
+while n > 0:
+    last_digit = n % 10
+    new_rev = new_rev * 10 + last_digit
+    n = n // 10    
+print(f"Reverse : {new_rev}")
+
+```
+Enter the number: 12345
+
+```
+
+
+```
+Reverse : 54321
+```"""
+
+n = int(input("Enter the number:").strip())
+
+count = 0
+while n > 0:
+    last_digit = n % 10
+    count = count + last_digit
+    n = n//10
+print(f"Sum of Digits: {count}")
