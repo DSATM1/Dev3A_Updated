@@ -85,4 +85,74 @@ for i in range(n):
     print(a,end =" ")
     a,b=b,a+b"""
 
+"""
+A number is Armstrong if sum of its digits raised to power of number of 
+digits equals the number itself. Check if given number is Armstrong.
 
+Enter number : 153
+153 = 1³ + 5³ + 3³ = 153 ✅ Armstrong Number!
+
+Enter number : 123
+123 ❌ Not an Armstrong Number!
+
+
+n = int(input("Enter number:").strip())
+count = 0
+if n==0:
+    count += 1
+while n > 0:
+        n = n // 10
+        count += 1
+print(f"Number of digits : {count}")
+
+"""
+
+"""n = int(input("Enter the number:").strip())
+
+count = 0 
+if n == 0: 
+    count +=1
+    while n > 0:
+        last_digit = n % 10
+        count+=last_digit**3
+        n = n//10
+if n == n**3:
+    print(f"{count} ✅ Armstrong Number!")
+else:
+    print(f"{count} ❌ Not an Armstrong Number!")"""
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"""
+Take N as input. Print all prime numbers from 2 to N using nested loops.
+
+Enter N : 30
+2 3 5 7 11 13 17 19 23 29"""
