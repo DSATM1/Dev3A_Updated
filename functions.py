@@ -20,3 +20,4 @@ def add_return(x,y): #type:ignore
 result = add_return(10,20)
 print(result)
 print(result*2)
+
