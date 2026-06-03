@@ -44,3 +44,9 @@ def in_side():
 
 in_side()
 print("outside",a)"""
+
+"""def hello(name="Suraj",message="Ai Engineer"):   #type:ignore
+    print(f"Hello {name} in next few months u r becoming {message}")
+
+hello()
+hello("Putta","Collegue of Mr. Suraj S P")"""
