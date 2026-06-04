@@ -55,3 +55,23 @@ res = float(input("Enter Temp in Celcius :"))
 faren, kelvin = celsius_to_fahrenheit(res)
 print(f"Fahrenheit : {faren} F")
 print(f"kelvin : {kelvin} K")"""
+
+"""def calculator(a,b,op):
+    if op =="+":
+        return a+b
+    elif op == "-":
+        return a-b
+    elif op == "*":
+        return a*b
+    elif op == "/":
+        if b == 0 : 
+            return "Error: Division by zero"
+        else :
+            return a/b 
+    else:
+        print("Invalid Operator")
+a = float(input("Enter a :").strip())
+b = float(input("Enter b :").strip()) 
+op = input("Enter Operator:").strip()       
+res = calculator(a,b,op)
+print(res)"""
