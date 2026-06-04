@@ -75,3 +75,5 @@ b = float(input("Enter b :").strip())
 op = input("Enter Operator:").strip()       
 res = calculator(a,b,op)
 print(res)"""
+
+
