@@ -91,3 +91,14 @@ print(res)"""
 
 str = input("Enter a String:").strip().lower()
 print(is_palindrome(str))"""
+
+"""
+def power(base, mele):
+    result = 1
+    # if mele == 0:
+    #     return 1
+    for i in range(0,mele):
+        result= result * base
+    return result
+res = power(2,10)
+print(res)"""
