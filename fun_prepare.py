@@ -9,8 +9,12 @@
         return False    
 res = is_even(1)
 print(res)"""
-
-'''def is_even(n):  #type:ignore
+''
+"""def is_even(n):  #type:ignore
     return n % 2 == 0  #type:ignore
-
-print(is_even(14))'''
+n = int(input("Enter n:").strip())
+result = is_even(n)
+if result == True :
+    print(f" {n} is Even ✅")
+else:
+    print(f"{n} is Odd ❌")"""
