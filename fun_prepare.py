@@ -102,3 +102,19 @@ def power(base, mele):
     return result
 res = power(2,10)
 print(res)"""
+
+
+"""def greet(name,message="Morning !"):
+    if message == "Morning !":
+        print(f"Morning 🌅, {name}")
+    elif message == "Night":
+        print(f"Night 🌙, {name}")
+    elif message == "Afternoon":
+        print(f"Afternoon ☀️, {name}")
+    else:
+        print(f"Evening 🌆, {name}")
+    
+greet("Suraj")
+greet("Suraj", "Night")
+greet("Suraj", "Afternoon") 
+greet("Suraj", "Evening") """
