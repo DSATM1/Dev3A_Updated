@@ -139,7 +139,7 @@ print(count_vowel(res))"""
 # is_armstrong(153) → True
 # is_armstrong(123) → False
 
-def amst(n):
+"""def amst(n):
     original = n
 
     power = len(str(n))   # count digits directly
@@ -164,6 +164,23 @@ print("Armstrong numbers from 1 to 1000:")
 
 for i in range(1,1001):
     if amst(i):
-        print(i,end= " ")
+        print(i,end= " ")"""
         
+
+"""Enter num 1 : 45
+Enter num 2 : 78
+Enter num 3 : 33
+
+Minimum : 33
+Maximum : 78
+Average : 52.00"""
+
+
+"""def min_max(a,b,c): #type:ignore
+    low = min(a,b,c) #type:ignore
+    high = max(a,b,c)
+    avg = (a+b+c)/3 #type:ignore
+    return low, high, avg #type:ignore
+res, res2, res3 = min_max(2,0,98)
+print(f"Minium = {res}, Maximum = {res2}, Average = {round(res3,2)}")"""
 
