@@ -184,3 +184,25 @@ Average : 52.00"""
 res, res2, res3 = min_max(2,0,98)
 print(f"Minium = {res}, Maximum = {res2}, Average = {round(res3,2)}")"""
 
+
+"""def is_leap(year):
+
+    if year % 400 == 0:
+        return True
+        #print(f"{year} is divisible by 400 → ✅ Leap Year!")
+    elif year %100 == 0:
+        return False 
+        #print(f"{year} is divisible by 100 but not 400 → ❌ Not a Leap Year!")
+    elif year % 4 == 0:
+        return True 
+        #print(f"{year} is divisible by 4 but not 100 → ✅ Leap Year!")
+    else:
+        return False    
+        #print("❌ Not a Leap Year!")
+year = int(input("Enter a year :").strip())
+print(is_leap(year))
+
+print("Leap years from 2000 to 2100:")
+for i in range(2000, 2101):
+    if is_leap(i):
+        print(i,end=" ")"""
