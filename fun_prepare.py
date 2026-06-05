@@ -139,7 +139,7 @@ print(count_vowel(res))"""
 # is_armstrong(153) → True
 # is_armstrong(123) → False
 
-"""def amst(n):
+def amst(n):
     original = n
 
     power = len(str(n))   # count digits directly
@@ -158,4 +158,12 @@ n = int(input("Enter the number: ").strip())
 if amst(n):
     print("✅ Armstrong!")
 else:
-    print("❌ Not Armstrong!")"""
+    print("❌ Not Armstrong!")
+
+print("Armstrong numbers from 1 to 1000:")
+
+for i in range(1,1001):
+    if amst(i):
+        print(i,end= " ")
+        
+
