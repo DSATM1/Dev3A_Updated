@@ -118,3 +118,19 @@ greet("Suraj")
 greet("Suraj", "Night")
 greet("Suraj", "Afternoon") 
 greet("Suraj", "Evening") """
+
+
+#count of vowels
+# aeiouAEIOU
+#for loop 
+
+
+"""def count_vowel(s):
+    count = 0
+    for i in s:
+        if i in "aeiouAEIOU":
+            count = count+1
+    return count
+res = input("Enter a string :").strip()
+print(count_vowel(res))"""
+
