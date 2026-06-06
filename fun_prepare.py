@@ -206,3 +206,21 @@ print("Leap years from 2000 to 2100:")
 for i in range(2000, 2101):
     if is_leap(i):
         print(i,end=" ")"""
+
+"""Enter n : 8
+Series  : [0, 1, 1, 2, 3, 5, 8, 13]
+Sum     : 33
+Average : 4.13"""
+
+n = list(input("Enter the number:").strip())
+a = 0
+b = 1
+num = []
+for i in range(n):
+    print(a,end =" ")
+    num.append(0)
+    print(num)
+    a,b=b,a+b
+    
+# series = list(input("Enter series : ").strip().split())
+# print(series)
