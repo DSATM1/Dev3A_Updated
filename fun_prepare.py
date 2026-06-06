@@ -230,3 +230,74 @@ print(f"Sum : {total}")
 print(f"Average : {avg}")"""
 
 
+
+"""def display_menu():
+     print("\n===== Mini Bank =====")
+     print("1. Check Balance")
+     print("2. Deposit")
+     print("3. Withdraw")
+     print("4. Exit")
+ 
+ def check_balance(balance):
+     print(f"ð° Current Balance : â¹{balance:.2f}")
+     return balance
+ 
+ def deposit(balance):
+     amt_str = input("Enter deposit amount : ").strip()
+     try:
+         amt = float(amt_str)
+         if amt <= 0:
+             print("â Enter a positive amount.")
+             return balance
+     except ValueError:
+         print("â Invalid amount.")
+         return balance
+     balance += amt
+     print(f"â Deposited â¹{amt:.2f}. New Balance : â¹{balance:.2f}")
+     return balance
+ 
+ def withdraw(balance):
+     amt_str = input("Enter withdrawal amount : ").strip()
+     try:
+         amt = float(amt_str)
+         if amt <= 0:
+             print("â Enter a positive amount.")
+             return balance
+     except ValueError:
+         print("â Invalid amount.")
+         return balance
+     if amt > balance:
+         print("â Insufficient funds.")
+         return balance
+     balance -= amt
+     print(f"â Withdrawn â¹{amt:.2f}. New Balance : â¹{balance:.2f}")
+     return balance
+ 
+ def main():
+     balance = 10000.00  # starting balance
+     while True:
+         display_menu()
+         choice = input("Choose option : ").strip()
+         if choice == "1":
+             balance = check_balance(balance)
+         elif choice == "2":
+             balance = deposit(balance)
+         elif choice == "3":
+             balance = withdraw(balance)
+         elif choice == "4":
+             print("ð Thank you for banking with us!")
+             break
+         else:
+             print("â Invalid option. Please choose 1-4.")
+ 
+ if __name__ == "__main__":
+     main()"""
+
+
+
+"""get_grade(86.6) → "A"
+--- Result Card ---
+Total      : 433/500
+Percentage : 86.60%
+Grade      : A
+Result     : ✅ PASS"""
